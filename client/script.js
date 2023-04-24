@@ -85,7 +85,7 @@ const handleSubmit = async (e) => {
 
   //fetch data from server -> bot response 
   // Initially http://localhost:5000 after we created the server
-  const response = await fetch('https://gm-open-ai-codex1.onrender.com',{
+  const response = await fetch('https://gm-open-ai-codex1.onrender.com/',{
     method: 'POST',
     headers: {
         'Content-Type': 'application/json'
